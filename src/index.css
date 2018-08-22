@@ -1,0 +1,55 @@
+.todo{
+	margin-top: 8%;
+	margin-left: 4%;
+	margin-right: 6%;
+	margin-bottom: 20%;
+	background:#18FAFB;
+	padding-top: 140%;
+	background: -webkit-linear-gradient(top,#18FAFB 50%,blue 100%);
+	border: 2px solid black;
+	/*border radius: top,right,bottom,left;*/	
+	border-radius: 40px 0px 40px 0px;
+	box-shadow: 4px 4px 22px black; 
+}
+.add{
+	position: absolute;
+	top: 22%;
+	left: 62%;
+	width: 87px;
+	height: 45px;
+	border-radius: 7px 7px 7px 7px;
+	background-color: white;
+	border: 2px solid blue;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.add:hover{
+	background-color: ;
+	color: white;
+	background:#C87124;
+
+}
+.Todo{
+	margin-top: -101%;
+	margin-left: 4%;
+	margin-right: 6%;
+	margin-bottom: 20%;
+	background:white;
+	padding-top: 89%;
+	border-radius: 9px 9px 9px 9px;
+	border-style: double;
+	border-width:thick;
+}
+.add:focus{outline: 0 !important}
+.text{
+	position: absolute;
+	top: 12%;
+	left: 12%;
+	height: 8%;
+	width: 74%;
+	border-radius: 20px 0px 20px 0px;
+	border: 2px solid black;
+	font-size: 25px;
+	color: blue;
+}
+.text:focus{outline: 0 !important}
