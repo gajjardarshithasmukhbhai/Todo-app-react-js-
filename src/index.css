@@ -64,6 +64,20 @@
 	color: green;
 	left:152%;
 }
+.input{
+	border-radius: 6px 6px 6px 6px;
+	border:2px solid blue;
+	color: red;
+}
+.update{
+	position: absolute;	
+	border-radius: 7px 7px 7px 7px;
+	background-color: white;
+	border: 2px solid green;
+	font-size: 15px;
+	font-weight: bolder;
+	color: green;	
+}
 .Edit:hover{
 	background-color: green;
 	color: white;

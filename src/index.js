@@ -110,8 +110,8 @@ class Todo extends React.Component
 	{
 		return(
 		<from onSubmit={this.updatechange}>
-			<input type="text" ref={(value)=>{this.input=value}} defaultValue={this.props.names.name}/>
-			<button onClick={this.updatechange}>Update</button>
+			<input type="text" class="input" ref={(value)=>{this.input=value}} defaultValue={this.props.names.name}/>
+			<button onClick={this.updatechange} class="update">Update</button>
 		</from>
 		)
 	}
