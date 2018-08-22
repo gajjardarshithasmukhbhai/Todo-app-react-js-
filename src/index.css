@@ -38,10 +38,15 @@
 	background: -webkit-linear-gradient(top,#321DE9 30%,#00F6FF 100%);
 
 }
+.p{
+	color: white;
+	text-align: center;
+	font-weight: bolder;
+}
 .Todo{
 	margin-top: -101%;
-	margin-left: 6%;
-	margin-right: 6%;
+	margin-left: 3%;
+	margin-right: 3%;
 	margin-bottom: 20%;
 	background:white;
 	padding-top: 89%;
@@ -49,10 +54,39 @@
 	border-style: double;
 	border-width:thick;
 }
+.Edit{
+	position: absolute;	
+	border-radius: 7px 7px 7px 7px;
+	background-color: white;
+	border: 2px solid green;
+	font-size: 15px;
+	font-weight: bolder;
+	color: green;
+	left:152%;
+}
+.Edit:hover{
+	background-color: green;
+	color: white;
+}
+.remove{
+	position: absolute;	
+	border-radius: 7px 7px 7px 7px;
+	background-color: white;
+	border: 2px solid red;
+	font-size: 15px;
+	font-weight: bolder;
+	color: red;
+	
+}
+.remove:hover{
+	color: white;
+	background-color: red;
+}
+.remove:focus{outline: 0 !important}
 .li{
 	position: absolute;
 	top:37%;
-	left: 06%;
+	left: 3%;
 	color: blue;
 	font-weight: bolder;
 	font-family: Constantia, Palatino, 'Palatino Linotype',  'Palatino LT STD', Georgia, serif;
