@@ -71,7 +71,9 @@ class Todo extends React.Component{
 		}
 		return(
 				<div>
-					<li>{this.props.names.name}</li>
+					<li>{this.props.names.name}
+					<button type="" >delete</button>
+				</li>					
 				</div>
 		);
 	}
