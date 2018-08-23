@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import Media from "react-media";
+
 class Darshit extends React.Component{
 	constructor(props)
 	{
@@ -59,9 +59,6 @@ class Darshit extends React.Component{
 	{
 		return(
 				<div>
-				<Media
-					query="(min-width: 576px)"
-					render={()=>
 					<div class="panel panel-primary pro">
 					<div class="panel-body">
 							<p class="text">v 1.2</p>
@@ -83,7 +80,7 @@ class Darshit extends React.Component{
 									</div>
 								</div>
 							</div>
-							</div>}/>
+							</div>
 				</div>
 		);
 	}
@@ -140,10 +137,6 @@ class Todo extends React.Component
 	{
 		let {Edit}=this.state;
 		return(
-			<Media
-					query="(min-width: 576px)"
-					render={()=>
-				
 				<div>
 				<br/>
 				<section>
@@ -153,7 +146,6 @@ class Todo extends React.Component
 				}
 				</section>
 				</div>
-			}/>
 		);
 	}
 }
