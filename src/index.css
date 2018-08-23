@@ -1,3 +1,5 @@
+@media(min-width: 576px)
+{
 .pro{
 	border: 2px solid black;
 	background-color: #18FAFB;
@@ -41,4 +43,5 @@
 
 	background: -webkit-linear-gradient(top,#321DE9 30%,#00F6FF 100%);
 	color: white;
+}
 }
