@@ -60,7 +60,7 @@ class Darshit extends React.Component{
 		return(
 				<div>
 				<Media
-					query="(max-width: 599px)"
+					query="(min-width: 576px)"
 					render={()=>
 					<div class="panel panel-primary pro">
 					<div class="panel-body">
@@ -141,7 +141,7 @@ class Todo extends React.Component
 		let {Edit}=this.state;
 		return(
 			<Media
-					query="(max-width: 599px)"
+					query="(min-width: 576px)"
 					render={()=>
 				
 				<div>
