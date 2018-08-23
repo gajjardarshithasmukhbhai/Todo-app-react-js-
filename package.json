@@ -7,6 +7,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
+    "react-media": "^1.8.0",
+    "react-responsive": "^5.0.0",
     "react-scripts": "1.1.4"
   },
   "scripts": {
@@ -14,7 +16,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "start-prod":"cross-env NODE_ENV=production && forever server.js"
+    "start-prod": "cross-env NODE_ENV=production && forever server.js"
   },
   "devDependencies": {
     "cross-env": "^5.2.0"
